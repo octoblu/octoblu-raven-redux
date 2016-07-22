@@ -1,0 +1,35 @@
+{
+  "name": "octoblu-raven-redux",
+  "version": "0.0.0",
+  "description": "Octoblu Raven Redux Middleware and Configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha -- -R spec --require coffee-coverage/register-istanbul"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/octoblu/octoblu-raven-redux.git"
+  },
+  "keywords": [
+    "Octoblu",
+    "Raven",
+    "Redux",
+    "Sentry"
+  ],
+  "author": "Octoblu, Inc <npm@octoblu.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/octoblu/octoblu-raven-redux/issues"
+  },
+  "homepage": "https://github.com/octoblu/octoblu-raven-redux#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coffee-coverage": "^1.0.1",
+    "coffee-script": "^1.10.0",
+    "istanbul": "^0.4.4",
+    "mocha": "^2.5.3",
+    "mocha-istanbul": "^0.3.0",
+    "sinon": "^1.17.4",
+    "sinon-chai": "^2.8.0"
+  }
+}
